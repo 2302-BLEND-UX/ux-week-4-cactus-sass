@@ -1,0 +1,43 @@
+// navbar
+
+nav {
+    display: flex;
+    font-family: $body-font;
+    background: $green;
+    color: $light-yellow;
+    text-transform: uppercase;
+    padding: $small-spacing;
+}
+
+#logo-container,
+#nav-links {
+    width: 50%;
+}
+
+#nav-links {
+    text-align: right;
+
+    // hamburger
+    i {
+        font-size: $subheader-font-size;
+        right: 10px;
+        font-size: 30px;
+        position: relative;
+        top: 10px;
+    }
+}
+
+#logo-container {
+    display: flex;
+
+    #logo-name {
+        position: relative;
+        top: 19px;
+        left: 10px;
+        letter-spacing: 3px;
+    }
+
+    img {
+        width: 60px;
+    }
+}

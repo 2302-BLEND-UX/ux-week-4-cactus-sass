@@ -1,0 +1,87 @@
+// -------pages------
+
+// typography
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+    color: $green;
+}
+
+// general elements
+.page-section {
+    padding: $page-section-mobile;
+
+    h2 {
+        font-size: $h2-size-mobile;
+        margin-bottom: $med-spacing;
+    }
+}
+
+// homepage
+
+#hero-section {
+    background-color: $green;
+    text-align: center;
+    padding: $x-small-spacing;
+
+    h1 {
+        font-size: $h1-size-mobile;
+        color: $light-yellow;
+        margin-bottom: $med-spacing;
+    }
+
+    .cta-button {
+        text-transform: uppercase;
+        display: inline-block;
+        background: $yellow;
+        padding: $med-spacing;
+        border-radius: $small-border-radius;
+        padding: $button-padding;
+        color: $light-yellow;
+        text-decoration: none;
+    }
+
+    #learn-more-link {
+        text-transform: uppercase;
+        display: inline-block;
+        padding: $med-spacing;
+        color: $light-yellow;
+        text-decoration: none;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+
+#plant-collection-section {
+    .collection-row {
+
+        // general item styles
+        .collection-item {
+            height: 300px;
+            background-size: cover;
+            background-position: 35% 0%;
+            position: relative;
+
+            // subheaders
+            h3 {
+                font-family: "Lato", sans-serif;
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+            }
+        }
+
+        // specific collections
+        #indoor-collection {
+            background-image: url("../img/collections/indoor-cactus.jpg");
+        }
+
+        #outdoor-collection {
+            background-image: url("../img/collections/outdoor-cactus.jpg");
+        }
+    }
+}

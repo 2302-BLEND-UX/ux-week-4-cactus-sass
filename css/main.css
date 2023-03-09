@@ -1,0 +1,125 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Lato:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Gloock", serif;
+}
+
+p,
+a,
+button {
+  font-family: "Lato", serif;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  font-family: "Lato", serif;
+  background: rgb(0, 67, 26);
+  color: rgb(255, 252, 213);
+  text-transform: uppercase;
+  padding: 15px;
+}
+
+#logo-container,
+#nav-links {
+  width: 50%;
+}
+
+#nav-links {
+  text-align: right;
+}
+#nav-links i {
+  font-size: 20px;
+  right: 10px;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+#logo-container {
+  display: flex;
+}
+#logo-container #logo-name {
+  position: relative;
+  top: 19px;
+  left: 10px;
+  letter-spacing: 3px;
+}
+#logo-container img {
+  width: 60px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  color: rgb(0, 67, 26);
+}
+
+.page-section {
+  padding: 40px 10px;
+}
+.page-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#hero-section {
+  background-color: rgb(0, 67, 26);
+  text-align: center;
+  padding: 10px;
+}
+#hero-section h1 {
+  font-size: 45px;
+  color: rgb(255, 252, 213);
+  margin-bottom: 20px;
+}
+#hero-section .cta-button {
+  text-transform: uppercase;
+  display: inline-block;
+  background: rgb(220, 155, 35);
+  padding: 20px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  color: rgb(255, 252, 213);
+  text-decoration: none;
+}
+#hero-section #learn-more-link {
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 20px;
+  color: rgb(255, 252, 213);
+  text-decoration: none;
+}
+#hero-section img {
+  width: 100%;
+}
+
+#plant-collection-section .collection-row .collection-item {
+  height: 300px;
+  background-size: cover;
+  background-position: 35% 0%;
+  position: relative;
+}
+#plant-collection-section .collection-row .collection-item h3 {
+  font-family: "Lato", sans-serif;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+#plant-collection-section .collection-row #indoor-collection {
+  background-image: url("../img/collections/indoor-cactus.jpg");
+}
+#plant-collection-section .collection-row #outdoor-collection {
+  background-image: url("../img/collections/outdoor-cactus.jpg");
+}
